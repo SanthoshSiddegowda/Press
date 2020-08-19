@@ -1,0 +1,15 @@
+{
+    "name": "santhosh/press",
+    "description": "An powerfull markdown-powered blog for the laravel framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santhosh J S",
+            "email": "santhoshashgowda@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^5.4"
+    }
+}
