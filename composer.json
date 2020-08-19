@@ -8,8 +8,20 @@
             "email": "santhoshashgowda@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
     "require-dev": {
         "orchestra/testbench": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "santhosh\\Press\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "santhosh\\Press\\Tests\\": "tests/"
+        }
     }
 }
